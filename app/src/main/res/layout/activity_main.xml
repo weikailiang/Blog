@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/toolbar_white_theme"
+        android:fitsSystemWindows="true">
+        <!--主布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <include layout="@layout/common_titlebar"/>
+            <FrameLayout
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_above="@+id/bottom_view"
+                android:layout_weight="1" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F0F0F0" />
+
+            <me.majiajie.pagerbottomtabstrip.PageNavigationView
+                android:id="@+id/pager_bottom_tab"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:NavigationPaddingBottom="0dp"
+                app:NavigationPaddingTop="0dp"
+                app:elevation="3dp" />
+        </LinearLayout>
+        <!--侧滑菜单-->
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="?attr/dayNightBackground"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_home_navigation_top"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_logo" />
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/comm_dimen_10"
+                    android:textColor="?attr/dayNightBackground"
+                    />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/lv_left_recycler"
+                android:layout_below="@id/ll_home_navigation_top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                />
+        </RelativeLayout>
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+</layout>

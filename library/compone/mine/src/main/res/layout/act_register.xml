@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_login_bg"
+        android:fitsSystemWindows="true">
+        <include layout="@layout/common_titlebar"/>
+       <FrameLayout
+           android:id="@+id/contrain"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.base.common.widget.BounceScrollView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scrollbars="none">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="欢迎您的注册"
+                       android:textStyle="bold"
+                       android:textColor="@android:color/white"
+                       android:textSize="@dimen/font_large"
+                       android:layout_marginTop="@dimen/comm_dimen_80"
+                       android:paddingLeft="@dimen/comm_dimen_20"/>
+                   <android.support.design.widget.TextInputLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/comm_dimen_10"
+                       android:layout_marginTop="@dimen/comm_dimen_100"
+                       android:hint="帐号"
+                       android:layout_marginLeft="@dimen/comm_dimen_20"
+                       android:layout_marginRight="@dimen/comm_dimen_20"
+                       android:textColorHint="@android:color/white"
+                       app:counterEnabled="true"
+                       app:counterTextAppearance="@style/counterAppearance"
+                       app:errorTextAppearance="@style/errorAppearance"
+                       app:hintTextAppearance="@style/hintAppearance"
+                       app:passwordToggleDrawable="@drawable/selector_password_show_or_hide"
+                       app:passwordToggleEnabled="true"
+                       app:passwordToggleTint="@android:color/white">
+                       <EditText
+                           android:id="@+id/account"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:inputType="number"
+                           android:padding="@dimen/comm_dimen_10"
+                           android:textColor="@android:color/white"
+                           android:background="@drawable/et_bottom_line"
+                           />
+                   </android.support.design.widget.TextInputLayout>
+
+                   <android.support.design.widget.TextInputLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:padding="@dimen/comm_dimen_10"
+                       android:hint="密码"
+                       android:layout_marginLeft="@dimen/comm_dimen_20"
+                       android:layout_marginRight="@dimen/comm_dimen_20"
+                       android:textColorHint="@android:color/white"
+                       app:counterEnabled="true"
+                       app:counterTextAppearance="@style/counterAppearance"
+                       app:errorTextAppearance="@style/errorAppearance"
+                       app:hintTextAppearance="@style/hintAppearance"
+                       app:passwordToggleDrawable="@drawable/selector_password_show_or_hide"
+                       app:passwordToggleEnabled="true"
+                       app:passwordToggleTint="@android:color/white">
+
+                       <EditText
+                           android:id="@+id/pwd"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:inputType="textPassword"
+                           android:padding="@dimen/comm_dimen_10"
+                           android:textColor="@android:color/white"
+                           android:background="@drawable/et_bottom_line"
+                           />
+                   </android.support.design.widget.TextInputLayout>
+
+
+                   <Button
+                       android:id="@+id/login"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/bg_login"
+                       android:textColor="@color/colorPrimary"
+                       android:text="注册"
+                       android:textStyle="bold"
+                       android:layout_margin="@dimen/comm_dimen_20"/>
+
+
+
+
+
+               </LinearLayout>
+
+
+
+
+
+           </com.base.common.widget.BounceScrollView>
+       </FrameLayout>
+    </LinearLayout>
+</layout>
