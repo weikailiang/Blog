@@ -12,286 +12,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2d1ea59-1bd6-48bf-9913-1b773c04ea50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/mipmap-xxhdpi/ic_login_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/mipmap-xxhdpi/ic_look_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/mipmap-xxhdpi/ic_look_y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi/ic_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi/ic_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi/ic_setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi/ic_splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable/ic_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/java/com/base/chat/c/WeChatMomentContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/java/com/base/chat/fag/WeChatMomentFag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/java/com/base/chat/m/WeChatMomentModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/java/com/base/chat/p/WeChatMomentPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/res/layout/fag_wechatmoment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/chat/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/c/HomeFagContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/fag/HomeFag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/m/HomeFagModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/p/HomeFagPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/res/layout/fag_home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/home/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/RegisterActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/SettingActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/c/LoginContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/c/MineContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/c/RegisterContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/fag/MineFag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/m/LoginModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/m/MineModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/m/RegisterModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/p/LoginPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/p/MinePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/p/RegisterPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/drawable/bg_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/drawable/et_bottom_line.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/drawable/selector_password_show_or_hide.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_login.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_register.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_setting.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/fag_mine.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/values/style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/src/main/java/com/base/bolg_model/entity/MenuHomeLeftEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/bolg_model/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/Model.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/entity/FileBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/entity/RequestRegisterEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/entity/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/java/com/base/comm_model/event/MainTitleEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/model/comm_model/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/BaseApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/base/BaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/base/BasePresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/base/BaseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/daynightmodeutils/ChangeModeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/daynightmodeutils/ChangeModeHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/db/DBDataHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/db/DBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/db/DbField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/HttpUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/NetWorkUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/OkHttpInitial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/ResponseState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/RetrofitInitial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/back/CallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/back/CallBackFroPark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/back/ParameterizedTypeImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/BaseRequestBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/GetDownLoadBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/GetQueryBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/PostContentBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/PostFileBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/PostFormBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/builder/PostPicsBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/BaseRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/BaseSynRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/DataRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/DataSynRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/DownLoadRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/DownLoadSynRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/FileRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/FileSynRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/PicsRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/PicsSynRequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/call/RequestCall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/BaseRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/GetDownLoadRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/GetQueryRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/PostContentRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/PostFileRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/PostFormRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/request/PostPicsRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/response/BaseResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/response/NetWorkInitial.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/service/GetService_DownLoad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/service/GetService_Query.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/service/PostService_Content.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/service/PostService_Form.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/http/service/PostService_Multi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/Indicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/LoadingIndicatorView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallBeatIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallClipRotateIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallClipRotateMultipleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallClipRotatePulseIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallGridBeatIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallGridPulseIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallPulseIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallPulseRiseIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallPulseSyncIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallRotateIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallScaleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallScaleMultipleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallScaleRippleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallScaleRippleMultipleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallSpinFadeLoaderIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallTrianglePathIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallZigZagDeflectIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/BallZigZagIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/CubeTransitionIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/LineScaleIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/LineScalePartyIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/LineScalePulseOutIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/LineScalePulseOutRapidIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/LineSpinFadeLoaderIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/PacmanIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/SemiCircleSpinIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/SquareSpinIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/loding/indicators/TriangleSkewSpinIndicator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/rxbus/RxBus2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/sp/SpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/utils/ErrorLogUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/utils/ScaleUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/utils/ScreenUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/utils/TUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/utils/ToastUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/widget/BounceScrollView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/layout/activity_common.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/layout/common_titlebar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/layout/view_progress.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/values/style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BaseHolderType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicHFRecyAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicRecyViewHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridMultiTypeGapDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridSpanSizeLookup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridVerDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineHerComDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineVerComDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFMultiTypeRecyAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFSingleTypeRecyAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFStageredGridVerDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HolderTypeData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HorizonRecyclerView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/PullViewHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecycleScrollListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecyclerSpace.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/AlphaInAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/BaseAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/ScaleInAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/SlideInBottomAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/SlideInLeftAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/animation/SlideInRightAnimation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/CustomDivider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/DensityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/LawStatuteSpaceItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/SpaceItemDecoration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartBannerRefreshLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartRefreshLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshFooterCreater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshHeaderCreater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshInternal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshKernel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/ScrollBoundaryDecider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/constant/DimensionStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/constant/RefreshState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/constant/SpinnerStyle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/BallPulseFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ClassicsFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/FalsifyFooter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ballpulse/BallPulseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/BezierRadarHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/ClassicsHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/FalsifyHeader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/bezierradar/RippleView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/bezierradar/RoundDotView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/bezierradar/RoundProgressView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/bezierradar/WaveView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshContentWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshFooterWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshHeaderWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/ScrollBoundaryDeciderAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/ProgressDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/pathview/PathParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/pathview/PathsDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/pathview/PathsView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/AnimationEndListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/OnLoadmoreListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/OnMultiPurposeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/OnRefreshListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/OnRefreshLoadmoreListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/OnStateChangedListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/listener/SimpleMultiPurposeListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/ColorUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/DelayedRunable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/DensityUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/ScrollBoundaryUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/ViscousFluidInterpolator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/AutoInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayoutImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/OnBannerImgSelectInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/ImagePicView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/OnItemClickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/PicType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_img_pic_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/values/attr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="d2d1ea59-1bd6-48bf-9913-1b773c04ea50" name="Default" comment="" />
     <list id="2aadcbde-4eb5-4110-821d-f94972fd8d40" name="Revert: Initial commit" comment="" />
     <ignored path="build/" />
     <ignored path="gradle/" />
@@ -346,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -12984,7 +12705,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/base/blog/m/MainModel.java" />
         <option value="$PROJECT_DIR$/library/compone/mine/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/ClassicsHeader.java" />
         <option value="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleActivity.java" />
@@ -13035,6 +12755,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/androidTest/debug/android/app/R.java" />
         <option value="$PROJECT_DIR$/blog.iml" />
+        <option value="$PROJECT_DIR$/library/model/model.iml" />
       </list>
     </option>
   </component>
@@ -13103,6 +12824,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bolg_model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -13227,7 +12970,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589958977199" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589959087619" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -13275,7 +13018,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589958977199" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589959087619" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -13484,7 +13227,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589958977200" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1589959087619" />
       </method>
     </configuration>
     <list size="1">
@@ -13528,6 +13271,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -13549,7 +13293,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21927711" sideWeight="0.49713877" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.49371633" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -13629,13 +13373,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/db/DBDataHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/base/blog/c/MainContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -13987,10 +13724,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/model/model.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>
