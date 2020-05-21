@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/common_titlebar"/>
+        <com.base.common.widget.BounceScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/contrain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <com.base.wedget.imgpic.ImagePicView
+                        android:id="@+id/image_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:isEdit="false"
+                        app:numline="4"/>
+                </LinearLayout>
+            </FrameLayout>
+        </com.base.common.widget.BounceScrollView>
+    </LinearLayout>
+</layout>

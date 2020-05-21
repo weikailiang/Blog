@@ -70,7 +70,7 @@ public class WeChatMomentFag extends BaseFragment<WeChatMomentPresenter,WeChatMo
         entity.setUrl("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3404221704,526751635&fm=26&gp=0.jpg");
         list.add(entity);
         entity = new BannerEntity();
-        entity.setUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589455087414&di=b6f82f16f2cd727578c65ab53e093c6c&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01acaf5722af116ac7253812b32635.jpg%401280w_1l_2o_100sh.jpg");
+        entity.setUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589455087688&di=c7a937e857838819886b427886a70683&imgtype=0&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1100172608%2C3877538389%26fm%3D214%26gp%3D0.jpg");
         list.add(entity);
         mBinding.banner.setmData(list);
         mBinding.banner.setOnBannerImgSelectInterface(new OnBannerImgSelectInterface() {

@@ -5,7 +5,7 @@ package com.base.common.http;
  */
 
 public class Config {
-    private static final String BASE_URL = "http://192.168.0.128:8989/";
+    private static final String BASE_URL = "http://192.168.0.115:8989/";
     private static final String DEBUG_URL="http://192.168.0.120:8989/";
     private static boolean isDebug = false;
 

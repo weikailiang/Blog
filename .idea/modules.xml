@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog.iml" filepath="$PROJECT_DIR$/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" filepath="$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/compone/chat/chat.iml" filepath="$PROJECT_DIR$/library/compone/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/model/comm_model/comm_model.iml" filepath="$PROJECT_DIR$/library/model/comm_model/comm_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/tool/common/common.iml" filepath="$PROJECT_DIR$/library/tool/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/compone/compone.iml" filepath="$PROJECT_DIR$/library/compone/compone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/compone/home/home.iml" filepath="$PROJECT_DIR$/library/compone/home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/compone/mine/mine.iml" filepath="$PROJECT_DIR$/library/compone/mine/mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/model/model.iml" filepath="$PROJECT_DIR$/library/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/tool/refresh/refresh.iml" filepath="$PROJECT_DIR$/library/tool/refresh/refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/tool/tool.iml" filepath="$PROJECT_DIR$/library/tool/tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/tool/wedget/wedget.iml" filepath="$PROJECT_DIR$/library/tool/wedget/wedget.iml" />
+    </modules>
+  </component>
+</project>

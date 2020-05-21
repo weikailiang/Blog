@@ -24,6 +24,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dataBinding {
+        enabled true
+    }
 }
 
 dependencies {
@@ -33,4 +36,9 @@ dependencies {
     })
     implementation rootProject.ext.dependencies["appcompat-v7"]
     implementation rootProject.ext.dependencies["glide"]
+    implementation rootProject.ext.dependencies["recyclerview"]
+    annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+    implementation rootProject.ext.dependencies["arouter-api"]
+    implementation rootProject.ext.dependencies["fragmentation"]
+    implementation project(':library:tool:common')
 }
