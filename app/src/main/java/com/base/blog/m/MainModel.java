@@ -46,9 +46,9 @@ public class MainModel implements MainContract.Model {
 
 
         menuHomeLeftEntity = new MenuHomeLeftEntity();
-        menuHomeLeftEntity.setmClassName("/mine/setting");
+        menuHomeLeftEntity.setmClassName("/chat/center");
         menuHomeLeftEntity.setmIcon("ic_setting");
-        menuHomeLeftEntity.setmName(context.getString(R.string.home_setting));
+        menuHomeLeftEntity.setmName(context.getString(R.string.home_center));
         list.add(menuHomeLeftEntity);
 
         return list;

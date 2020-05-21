@@ -1,8 +1,11 @@
 package com.base.wedget.imgpic.adapter;
 
 import android.content.Context;
+import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.base.wedget.R;
@@ -31,13 +34,20 @@ public class PicImgAdapter extends BaseAdapter<PicImgViewHolder>{
 
     private List<ImageItem> mData = new ArrayList<>();
     RequestOptions mRequestOptions;
-    public PicImgAdapter(Context context){
+    public PicImgAdapter(){
         mRequestOptions = new RequestOptions();
         mRequestOptions.centerCrop()
                 .error(R.drawable.ic_error)
                 .placeholder(R.drawable.img_loading)
                 .diskCacheStrategy(DiskCacheStrategy.ALL);
     }
+
+    @Override
+    public PicImgViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new PicImgViewHolder(LayoutInflater.from(parent.getContext()).inflate(getLayoutResource(),null));
+    }
+
+
     public void setDefaultData(boolean isEdit){
         if (isEdit) {
             ImageItem item = new ImageItem();

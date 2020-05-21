@@ -42,7 +42,7 @@ public class ImagePicView extends FrameLayout{
         mBinding = DataBindingUtil.bind(LayoutInflater.from(context).inflate(R.layout.item_img_pic_view,null));
         addView(mBinding.getRoot());
         if (mAdapter == null) {
-            mAdapter = new PicImgAdapter(context);
+            mAdapter = new PicImgAdapter();
             GridLayoutManager manager = new GridLayoutManager(context, numLine);
             mBinding.picRecy.setLayoutManager(manager);
             mAdapter.setDefaultData(isEdit);

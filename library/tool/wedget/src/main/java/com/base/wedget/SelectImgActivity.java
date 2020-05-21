@@ -16,6 +16,9 @@ public class SelectImgActivity extends BaseActivity{
     @Override
     protected void initEventAndData() {
         super.initEventAndData();
+        initTitleBar();
+        setBackNavigation();
+        setBarTitle("选择图片");
     }
 
     @Override

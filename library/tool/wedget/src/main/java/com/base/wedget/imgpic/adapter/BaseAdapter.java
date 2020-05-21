@@ -8,10 +8,7 @@ import android.view.ViewGroup;
  * Created by weikailiang on 2020/5/21.
  */
 
-public abstract class BaseAdapter<VH extends BaseViewHolder> extends RecyclerView.Adapter<VH>{
-    @Override
-    public VH onCreateViewHolder(ViewGroup parent, int viewType) {
-        return (VH) new BaseViewHolder(LayoutInflater.from(parent.getContext()).inflate(getLayoutResource(),null));
-    }
+public abstract class BaseAdapter<T extends BaseViewHolder> extends RecyclerView.Adapter<T>{
+
     protected abstract int getLayoutResource();
 }
