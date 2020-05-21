@@ -1,12 +1,8 @@
 package com.base.wedget.imgpic.adapter;
-
-import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.base.wedget.R;
 import com.base.wedget.entity.ImageItem;

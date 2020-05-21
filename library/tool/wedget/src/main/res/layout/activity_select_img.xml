@@ -11,12 +11,16 @@
         android:layout_height="match_parent"
         android:fitsSystemWindows="true">
         <include layout="@layout/common_titlebar"/>
-        <LinearLayout
-            android:id="@+id/contrain"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:id="@+id/contrain"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
 
-        </LinearLayout>
+           </LinearLayout>
+       </FrameLayout>
     </LinearLayout>
 </layout>
