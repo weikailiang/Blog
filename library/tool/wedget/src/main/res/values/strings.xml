@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">wedget</string>
+    <string name="select_img_cate_pic">选择图库</string>
+    <string name="select_img">选择图片</string>
+    <string name="all_img">全部图片</string>
 </resources>

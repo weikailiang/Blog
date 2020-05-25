@@ -14,13 +14,37 @@
        <FrameLayout
            android:layout_width="match_parent"
            android:layout_height="match_parent">
-           <LinearLayout
+           <RelativeLayout
                android:id="@+id/contrain"
                android:layout_width="match_parent"
                android:layout_height="match_parent"
                android:orientation="vertical">
+               <LinearLayout
+                   android:id="@+id/ll_img"
+                   android:layout_above="@+id/tv_bootm_cate"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+                   <android.support.v7.widget.RecyclerView
+                       android:id="@+id/recycler"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:scrollbars="none"/>
+               </LinearLayout>
 
-           </LinearLayout>
+               <TextView
+                   android:id="@+id/tv_bootm_cate"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:text="@string/app_name"
+                   android:gravity="center_vertical"
+                   android:clickable="true"
+                   android:background="@drawable/item_select"
+                   android:drawableRight="@drawable/ic_select"
+                   android:padding="@dimen/comm_dimen_10"/>
+
+           </RelativeLayout>
        </FrameLayout>
     </LinearLayout>
 </layout>

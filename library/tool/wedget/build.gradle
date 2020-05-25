@@ -40,5 +40,6 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
     implementation rootProject.ext.dependencies["arouter-api"]
     implementation rootProject.ext.dependencies["fragmentation"]
+    implementation rootProject.ext.dependencies["design"]
     implementation project(':library:tool:common')
 }

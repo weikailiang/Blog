@@ -5,6 +5,7 @@
     <color name="colorAccent">#1ca1fe</color>
 
     <color name="color_white">#ffffff</color>
+    <color name="color_line">#dadada</color>
 
     <!--白天主题-->
     <color name="day_backgroup_color">#FFFFFFFF</color>

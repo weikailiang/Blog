@@ -147,6 +147,8 @@
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-idling-resource-2.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="javax.annotation:javax.annotation-api:1.2@jar" level="project" />
     <orderEntry type="library" name="com.alibaba:arouter-annotation:1.0.4@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:design-26.1.0" level="project" />
+    <orderEntry type="library" name="com.android.support:transition-26.1.0" level="project" />
     <orderEntry type="module" module-name="comm_model" />
     <orderEntry type="module" module-name="common" />
     <orderEntry type="module" module-name="bolg_model" />

@@ -1,20 +1,25 @@
 package com.base.wedget.p;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.util.Log;
+import android.support.v7.widget.GridLayoutManager;
 
 import com.base.common.utils.ToastUtil;
+import com.base.wedget.R;
+import com.base.wedget.adapter.SelectImgAdapter;
 import com.base.wedget.c.SelectImgContract;
+import com.base.wedget.dialog.PicCateAdapter;
+import com.base.wedget.dialog.PicCateDailog;
+import com.base.wedget.entity.ImageItem;
 import com.base.wedget.entity.ImageLoadEntity;
 
 import java.io.File;
-import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,6 +31,7 @@ import java.util.List;
 public class SelectImgPresenter extends SelectImgContract.Presenter{
     //父路径集合
     private List<String> mDirPaths = new ArrayList<>();
+    public List<ImageItem> mAllImgList = new ArrayList<>();
     private List<ImageLoadEntity> mImageFloders = new ArrayList<>();
 
     private int mPicsSize;
@@ -50,7 +56,6 @@ public class SelectImgPresenter extends SelectImgContract.Presenter{
                                 MediaStore.Images.Media.MIME_TYPE + "=?",
                         new String[]{"image/jpeg", "image/png","image/jpg"},
                         MediaStore.Images.Media.DATE_TAKEN +" DESC");//获取图片的cursor，按照时间倒序（发现没卵用)
-
                 while (mCursor.moveToNext()) {
                     String path = mCursor.getString(mCursor.getColumnIndex(MediaStore.Images.Media.DATA));// 1.获取图片的路径
                     File parentFile = new File(path).getParentFile();
@@ -93,19 +98,150 @@ public class SelectImgPresenter extends SelectImgContract.Presenter{
         }).start();
     }
 
+    private PicCateDailog mPicCateDialog;
+    @Override
+    public void showImageCate(List<ImageLoadEntity> list) {
+        if (mPicCateDialog!=null){
+            mPicCateDialog.show();
+            return;
+        }
+        mPicCateDialog = new PicCateDailog(mContext, mContext.getString(R.string.select_img_cate_pic), new PicCateAdapter.OnItemChooseListener() {
+            @Override
+            public void onItemChoose(ImageLoadEntity entity) {
+                if (entity.getName().equals(mContext.getString(R.string.all_img))){
+                    checkAllLocalImgByPaths();
+                }else {
+                    checkLocalImgByPath(entity.getDir());
+                }
+                mView.getBottomTextView().setText(entity.getDir());
+                mPicCateDialog.dismiss();
+            }
+        });
+        mPicCateDialog.show();
+        mPicCateDialog.setData(list);
+    }
 
-    private Handler mHandler = new Handler(){
+    private SelectImgAdapter mAdapter;
+    @Override
+    public void showImg(List<ImageItem> list) {
+
+        if (mAdapter == null){
+            mAdapter = new SelectImgAdapter();
+            GridLayoutManager manager = new GridLayoutManager(mContext,4);
+            mView.getRecycler().setLayoutManager(manager);
+            mView.getRecycler().setAdapter(mAdapter);
+        }
+        mAdapter.setmData(list);
+
+    }
+
+    @Override
+    public void checkLocalImgByPath(String path) {
+        if (!Environment.getExternalStorageState().equals(
+                Environment.MEDIA_MOUNTED)) {
+            ToastUtil.show("检测到没有内存卡");
+            return;
+        }
+        mAllImgList.clear();
+        mView.showLoading();
+        new CheckLocalImg(path,mAllImgList,mHandler).start();
+    }
+
+    @Override
+    public void checkAllLocalImgByPaths() {
+        List<String> paths = new ArrayList<>();
+        for (ImageLoadEntity entity : mImageFloders){
+            paths.add(entity.getDir());
+        }
+        mView.showLoading();
+        mAllImgList.clear();
+        new CheckLocalAllImg(paths,mAllImgList,mHandler).start();
+    }
+
+    private static class CheckLocalImg extends Thread{
+        private String path;
+        private List<ImageItem> list;
+        private Handler mHandler;
+        public CheckLocalImg(String checkPath,List<ImageItem> data,Handler handler){
+            this.path = checkPath;
+            this.list = data;
+            this.mHandler = handler;
+        }
+        @Override
+        public void run() {
+            super.run();
+            File file = new File(path);
+            File[] files = file.listFiles();
+            for (int j = 0; j < files.length; j++) {
+                String name = files[j].getName();
+                if (files[j].isFile() & name.endsWith(".jpg") || name.endsWith(".png") || name.endsWith(".jpeg")) {
+                    list.add(new ImageItem(name,files[j].getPath()));
+                }
+            }
+            mHandler.sendEmptyMessage(2);
+        }
+    }
+
+
+    public Handler mHandler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
             //获取成功通知
             switch (msg.what){
                 case 1:
                     mView.stopLoading();
-                    Log.e("aaaa",mImageFloders.size()+"");
+                    if (mImageFloders.size()>0) {
+                        mView.showImgCate(mImageFloders);
+                    }else {
+                        ToastUtil.show("未查到图片");
+                    }
+
+                    checkAllLocalImgByPaths();
+
+                    break;
+                case 2:
+                    mView.stopLoading();
+                    showImg(mAllImgList);
+                    break;
+                case 3:
+                    mView.stopLoading();
+                    showImg(mAllImgList);
                     break;
             }
         }
     };
+
+    private static class CheckLocalAllImg extends Thread{
+        private List<String> paths;
+        private List<ImageItem> list;
+        private Handler mHandler;
+        public CheckLocalAllImg(List<String> checkPath,List<ImageItem> data,Handler handler){
+            this.paths = checkPath;
+            this.list = data;
+            this.mHandler = handler;
+        }
+        @Override
+        public void run() {
+            super.run();
+            for (String path : paths) {
+                File file = new File(path);
+                File[] files = file.listFiles();
+                if (null != files) {
+                    for (int j = 0; j < files.length; j++) {
+                        String name = files[j].getName();
+                        if (files[j].isFile() & name.endsWith(".jpg") || name.endsWith(".png") || name.endsWith(".jpeg")) {
+                            list.add(new ImageItem(name, files[j].getPath()));
+                        }
+                    }
+                }
+            }
+            mHandler.sendEmptyMessage(3);
+        }
+    }
+
+
+
+
 
 
 }
