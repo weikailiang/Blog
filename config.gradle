@@ -12,7 +12,7 @@ ext {
     ]
     dependencies = [
             "appcompat-v7"           : "androidx.appcompat:appcompat:${android["androidSupportSdkVersion"]}",
-            "design"                 : "com.google.android.material:material-rc01:${android["androidSupportSdkVersion"]}",
+            "design"                 : "com.google.android.material:material:${android["androidSupportSdkVersion"]}",
             "recyclerview-v7"        : "androidx.recyclerview:recyclerview:${android["androidSupportSdkVersion"]}",
             "annotations"            : "androidx.annotation:annotation:${android["androidSupportSdkVersion"]}",
             "support-v4"             : "androidx.legacy:legacy-support-v4:${android["androidSupportSdkVersion"]}",

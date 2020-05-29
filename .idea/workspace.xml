@@ -13,271 +13,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d1ea59-1bd6-48bf-9913-1b773c04ea50" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_annotation_1_0_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_arouter_api_1_3_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_githang_status_bar_compat_0_7_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_retrofit_retrofit2_rxjava2_adapter_1_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_12_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_majiajie_pager_bottom_tab_strip_2_3_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_yokeyword_fragmentation_0_10_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_greendao_3_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_greendao_api_3_2_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgDivider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable-hdpi/ic_check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable-hdpi/ic_checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable/select_checkbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-39-53-352.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-39-53-352.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-45-11-373.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-45-11-373.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-45-38-553.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-45-38-553.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-47-47-272.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-47-47-272.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-47-55-637.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-47-55-637.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-50-44-045.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-50-44-045.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-50-52-727.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-09-50-52-727.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-49-33-175.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-49-33-175.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-49-42-696.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-49-42-696.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-52-11-486.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-52-11-486.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-52-17-255.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-11-52-17-255.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-20-36-980.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-20-36-980.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-20-44-122.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-20-44-122.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-34-27-737.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-34-27-737.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-38-29-805.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-13-38-29-805.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-04-59-689.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-04-59-689.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-48-54-576.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-48-54-576.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-51-23-498.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-51-23-498.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-52-05-845.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-52-05-845.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-54-00-046.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-54-00-046.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-55-13-677.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-55-13-677.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-58-59-226.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-14-58-59-226.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-15-01-58-836.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-15-01-58-836.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-15-02-53-287.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-15-02-53-287.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-52-11-684.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-52-11-684.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-54-48-383.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-54-48-383.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-56-49-609.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-56-49-609.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-58-52-887.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-17-58-52-887.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-18-01-18-696.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-18-01-18-696.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-18-01-43-163.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-21-18-01-43-163.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-36-54-385.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-36-54-385.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-45-27-289.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-45-27-289.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-45-37-220.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-22-09-45-37-220.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-10-05-02-194.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-10-05-02-194.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-10-50-22-802.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-10-50-22-802.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-09-00-483.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-09-00-483.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-09-30-902.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-09-30-902.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-10-33-349.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-10-33-349.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-27-22-406.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-27-22-406.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-28-38-598.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-28-38-598.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-29-56-559.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-29-56-559.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-32-27-460.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-32-27-460.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-41-45-757.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-41-45-757.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-42-56-189.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-42-56-189.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-43-37-373.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-43-37-373.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-44-11-418.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-44-11-418.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-47-33-578.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-47-33-578.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-48-44-132.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-48-44-132.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-55-24-951.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-55-24-951.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-59-47-618.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-11-59-47-618.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-07-05-489.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-07-05-489.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-18-24-878.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-18-24-878.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-26-12-107.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-26-12-107.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-29-58-785.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-29-58-785.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-30-19-500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-30-19-500.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-37-42-552.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-37-42-552.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-52-55-807.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-52-55-807.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-54-09-241.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-54-09-241.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-56-42-003.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-56-42-003.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-57-27-675.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-57-27-675.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-58-34-383.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-13-58-34-383.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-00-03-731.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-00-03-731.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-05-04-833.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-05-04-833.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-06-10-679.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-06-10-679.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-10-48-278.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-10-48-278.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-14-06-729.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-14-06-729.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-17-27-322.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-17-27-322.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-28-32-843.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-28-32-843.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-54-15-768.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-14-54-15-768.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-05-24-243.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-05-24-243.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-06-48-556.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-06-48-556.rawproto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-08-37-072.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2020-05-25-15-08-37-072.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/base/blog/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/base/blog/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/base/blog/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/base/blog/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/base/blog/adapter/ItemMenuHomeLeftAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/base/blog/adapter/ItemMenuHomeLeftAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/base/blog/c/MainContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/base/blog/c/MainContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/base/blog/p/MainPrestener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/base/blog/p/MainPrestener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/chat/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/chat/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/compone/chat/chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/chat/chat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/compone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/compone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/home/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/home/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/compone/home/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/home/home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/mine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/fag/HomeFag.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/home/src/main/java/com/base/home/fag/HomeFag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/compone/mine/mine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/mine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/java/com/base/mine/LoginActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/src/main/res/layout/act_register.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/model/bolg_model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/bolg_model/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/model/comm_model/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/comm_model/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/model/comm_model/comm_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/comm_model/comm_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/model/model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/tool/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/refresh/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/act/SimpleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/daynightmodeutils/ChangeModeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/java/com/base/common/daynightmodeutils/ChangeModeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/common/src/main/res/layout/common_titlebar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/src/main/res/layout/common_titlebar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/tool/refresh/refresh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/refresh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/tool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/tool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/wedget/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/android/support/v4/view/PagerAdapterWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicHFRecyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicHFRecyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicRecyViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/BasicRecyViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridMultiTypeGapDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridMultiTypeGapDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridSpanSizeLookup.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridSpanSizeLookup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridVerDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFGridVerDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineHerComDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineHerComDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineVerComDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFLineVerComDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFStageredGridVerDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HFStageredGridVerDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HorizonRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/HorizonRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecycleScrollListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecycleScrollListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecyclerSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/RecyclerSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/CustomDivider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/CustomDivider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/LawStatuteSpaceItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/LawStatuteSpaceItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/SpaceItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/recy/utils/SpaceItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartBannerRefreshLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartBannerRefreshLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartRefreshLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/SmartRefreshLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshFooterCreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshFooterCreater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshHeaderCreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/DefaultRefreshHeaderCreater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshInternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshKernel.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshKernel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/api/RefreshLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/BallPulseFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/BallPulseFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ClassicsFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ClassicsFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/FalsifyFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/FalsifyFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ballpulse/BallPulseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/footer/ballpulse/BallPulseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/BezierRadarHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/BezierRadarHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/ClassicsHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/ClassicsHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/FalsifyHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/header/FalsifyHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshContentWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshContentWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshFooterWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshFooterWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshHeaderWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/impl/RefreshHeaderWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/ProgressDrawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/ProgressDrawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/pathview/PathsDrawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/internal/pathview/PathsDrawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/ColorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/src/main/java/com/base/refresh/resh/util/ColorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/SelectImgActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/SelectImgActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgDivider.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgDivider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/adapter/SelectImgViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayoutImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayoutImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/c/SelectImgContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/c/SelectImgContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/dialog/PicCateDailog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/dialog/PicCateDailog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/dialog/PicCateViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/dialog/PicCateViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/GifView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/GifView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/ImagePicView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/ImagePicView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/BaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/BaseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/BaseViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/BaseViewHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/PicImgViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/imgpic/adapter/PicImgViewHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/p/SelectImgPresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/p/SelectImgPresenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/activity_select_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/activity_select_img.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_select_img.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_select_img.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_img_pic_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_img_pic_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_pic_cat_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/src/main/res/layout/item_pic_cat_dialog.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/tool/wedget/wedget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/wedget.iml" afterDir="false" />
     </list>
     <list id="2aadcbde-4eb5-4110-821d-f94972fd8d40" name="Revert: Initial commit" comment="" />
@@ -287,7 +112,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="FJH7N19314000762" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -344,16 +169,19 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="SNJ4C19916005981" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable-xxhdpi" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/library/tool" />
-      <recent name="$PROJECT_DIR$/library/compone" />
-      <recent name="$PROJECT_DIR$/library/model" />
+      <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/library/compone/mine/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.base.blog.m" />
@@ -362,12 +190,12 @@
       <recent name="view" />
       <recent name="com.base.common.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/library/tool/wedget/src/main/res/raw" />
-      <recent name="$PROJECT_DIR$/library/compone/mine/src/main/res/mipmap-xxhdpi" />
-      <recent name="$PROJECT_DIR$/library/tool/common/src/main/res/mipmap-xxhdpi" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/library/tool" />
+      <recent name="$PROJECT_DIR$/library/compone" />
+      <recent name="$PROJECT_DIR$/library/model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -684,7 +512,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/library/tool/wedget/src/main/java/com/base/wedget/banner/BannerChartLayoutImpl.java</url>
-          <line>109</line>
+          <line>110</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>

@@ -5,8 +5,6 @@ import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
@@ -23,6 +21,9 @@ import com.base.refresh.resh.header.bezierradar.RoundDotView;
 import com.base.refresh.resh.header.bezierradar.RoundProgressView;
 import com.base.refresh.resh.header.bezierradar.WaveView;
 import com.base.refresh.resh.util.DensityUtil;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 

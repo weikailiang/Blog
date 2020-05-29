@@ -1,8 +1,7 @@
 package com.base.wedget.imgpic.adapter;
 
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by weikailiang on 2020/5/21.

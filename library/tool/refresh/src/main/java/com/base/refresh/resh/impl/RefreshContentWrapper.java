@@ -5,21 +5,7 @@ import android.animation.ValueAnimator.AnimatorUpdateListener;
 import android.content.Context;
 import android.database.DataSetObserver;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.NestedScrollingChild;
-import android.support.v4.view.NestedScrollingParent;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.PagerAdapterWrapper;
-import android.support.v4.view.ScrollingView;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.ListViewCompat;
-import android.support.v4.widget.NestedScrollView;
-import android.support.v4.widget.Space;
-import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.view.Gravity;
 import android.view.MotionEvent;
@@ -31,6 +17,7 @@ import android.widget.AbsListView;
 import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.ScrollView;
+import android.widget.Space;
 
 
 import com.base.refresh.resh.api.RefreshContent;
@@ -38,11 +25,25 @@ import com.base.refresh.resh.api.RefreshKernel;
 import com.base.refresh.resh.api.RefreshLayout;
 import com.base.refresh.resh.api.ScrollBoundaryDecider;
 import com.base.refresh.resh.constant.RefreshState;
+import com.google.android.material.appbar.AppBarLayout;
 
 import java.lang.reflect.Field;
 import java.util.Collections;
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.view.NestedScrollingChild;
+import androidx.core.view.NestedScrollingParent;
+import androidx.core.view.ScrollingView;
+import androidx.core.widget.ListViewCompat;
+import androidx.core.widget.NestedScrollView;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
@@ -687,13 +688,13 @@ public class RefreshContentWrapper implements RefreshContent {
             super.attachViewPager(viewPager);
         }
 
-        @Override
-        public void setViewPagerObserver(DataSetObserver observer) {
-            super.setViewPagerObserver(observer);
-            if (observer == null) {
-                wrapperViewPager(mViewPager, this);
-            }
-        }
+//        @Override
+//        public void setViewPagerObserver(DataSetObserver observer) {
+//            super.setViewPagerObserver(observer);
+//            if (observer == null) {
+//                wrapperViewPager(mViewPager, this);
+//            }
+//        }
 
         @Override
         public void setPrimaryItem(ViewGroup container, int position, Object object) {

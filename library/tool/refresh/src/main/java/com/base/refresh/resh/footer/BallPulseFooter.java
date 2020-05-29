@@ -2,10 +2,6 @@ package com.base.refresh.resh.footer;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.AttrRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.graphics.ColorUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +14,12 @@ import com.base.refresh.resh.api.RefreshLayout;
 import com.base.refresh.resh.constant.RefreshState;
 import com.base.refresh.resh.constant.SpinnerStyle;
 import com.base.refresh.resh.footer.ballpulse.BallPulseView;
+import com.base.refresh.resh.util.ColorUtils;
 import com.base.refresh.resh.util.DensityUtil;
+
+import androidx.annotation.AttrRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import static android.view.View.MeasureSpec.AT_MOST;
 import static android.view.View.MeasureSpec.getSize;

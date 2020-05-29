@@ -1,6 +1,5 @@
 package com.base.wedget.c;
 
-import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
 import com.base.common.act.base.BaseModel;
@@ -11,6 +10,8 @@ import com.base.wedget.entity.ImageLoadEntity;
 
 import java.io.FilenameFilter;
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by weikailiang on 2020/5/21.

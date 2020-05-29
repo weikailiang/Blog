@@ -5,7 +5,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.ColorInt;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -15,6 +14,8 @@ import com.base.refresh.resh.util.DensityUtil;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
+import androidx.annotation.ColorInt;
 
 public class BallPulseView extends View {
 

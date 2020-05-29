@@ -1,10 +1,11 @@
 package com.base.wedget.adapter;
 
-import android.databinding.DataBindingUtil;
 import android.view.View;
 
 import com.base.wedget.databinding.ItemSelectImgBinding;
 import com.base.wedget.imgpic.adapter.BaseViewHolder;
+
+import androidx.databinding.DataBindingUtil;
 
 /**
  * Created by weikailiang on 2020/5/25.

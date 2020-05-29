@@ -6,8 +6,6 @@ import android.graphics.Canvas;
 import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.widget.TextView;
@@ -16,6 +14,9 @@ import android.widget.TextView;
 import com.base.refresh.resh.api.RefreshFooter;
 import com.base.refresh.resh.header.FalsifyHeader;
 import com.base.refresh.resh.util.DensityUtil;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import static android.view.View.MeasureSpec.EXACTLY;
 import static android.view.View.MeasureSpec.makeMeasureSpec;

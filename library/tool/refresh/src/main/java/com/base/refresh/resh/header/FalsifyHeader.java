@@ -6,9 +6,6 @@ import android.graphics.Canvas;
 import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
@@ -21,6 +18,10 @@ import com.base.refresh.resh.api.RefreshLayout;
 import com.base.refresh.resh.constant.RefreshState;
 import com.base.refresh.resh.constant.SpinnerStyle;
 import com.base.refresh.resh.util.DensityUtil;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import static android.view.View.MeasureSpec.EXACTLY;
 import static android.view.View.MeasureSpec.makeMeasureSpec;

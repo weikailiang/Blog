@@ -1,6 +1,5 @@
 package com.base.refresh.resh.impl;
 
-import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -10,6 +9,8 @@ import com.base.refresh.resh.api.RefreshKernel;
 import com.base.refresh.resh.api.RefreshLayout;
 import com.base.refresh.resh.constant.RefreshState;
 import com.base.refresh.resh.constant.SpinnerStyle;
+
+import androidx.annotation.NonNull;
 
 
 /**

@@ -1,6 +1,5 @@
 package com.base.mine;
 
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
@@ -11,6 +10,8 @@ import com.base.mine.c.LoginContract;
 import com.base.mine.databinding.ActLoginBinding;
 import com.base.mine.m.LoginModel;
 import com.base.mine.p.LoginPresenter;
+
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by weikailiang on 2020/5/6.

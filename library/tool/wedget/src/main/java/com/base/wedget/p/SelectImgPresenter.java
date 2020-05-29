@@ -1,14 +1,12 @@
 package com.base.wedget.p;
 
 import android.content.ContentResolver;
-import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.support.v7.widget.GridLayoutManager;
 
 import com.base.common.utils.ToastUtil;
 import com.base.wedget.R;
@@ -24,6 +22,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.recyclerview.widget.GridLayoutManager;
 
 /**
  * Created by weikailiang on 2020/5/21.

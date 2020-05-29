@@ -1,18 +1,10 @@
 package com.base.blog;
 
 import android.os.Build;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Toast;
-
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.base.blog.c.MainContract;
 import com.base.blog.databinding.ActivityMainBinding;
@@ -28,6 +20,12 @@ import com.githang.statusbar.StatusBarCompat;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.core.content.ContextCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 import me.majiajie.pagerbottomtabstrip.NavigationController;
 import me.majiajie.pagerbottomtabstrip.listener.OnTabItemSelectedListener;
 import me.yokeyword.fragmentation.SupportFragment;

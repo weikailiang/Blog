@@ -1,6 +1,7 @@
 package com.base.refresh.resh.api;
 
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * 刷新布局核心功能接口

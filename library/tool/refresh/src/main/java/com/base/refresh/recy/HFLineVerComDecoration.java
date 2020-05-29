@@ -3,10 +3,11 @@ package com.base.refresh.recy;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.base.refresh.recy.utils.DensityUtils;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 
 public class HFLineVerComDecoration extends RecyclerView.ItemDecoration{

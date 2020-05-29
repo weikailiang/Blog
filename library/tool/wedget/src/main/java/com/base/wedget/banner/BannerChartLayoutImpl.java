@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -24,6 +22,9 @@ import com.bumptech.glide.request.RequestOptions;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * requestLayout

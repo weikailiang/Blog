@@ -1,6 +1,5 @@
 package com.base.blog.p;
 
-import android.support.v7.widget.LinearLayoutManager;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -17,6 +16,8 @@ import com.base.common.utils.ToastUtil;
 import com.base.refresh.recy.BasicRecyViewHolder;
 
 import com.base.bolg_model.entity.MenuHomeLeftEntity;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 

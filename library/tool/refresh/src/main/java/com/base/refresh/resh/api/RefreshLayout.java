@@ -1,7 +1,5 @@
 package com.base.refresh.resh.api;
 
-import android.support.annotation.ColorRes;
-import android.support.annotation.Nullable;
 import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 
@@ -10,6 +8,9 @@ import com.base.refresh.resh.listener.OnLoadmoreListener;
 import com.base.refresh.resh.listener.OnMultiPurposeListener;
 import com.base.refresh.resh.listener.OnRefreshListener;
 import com.base.refresh.resh.listener.OnRefreshLoadmoreListener;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.Nullable;
 
 
 /**

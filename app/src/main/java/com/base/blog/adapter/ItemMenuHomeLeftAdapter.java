@@ -1,5 +1,4 @@
 package com.base.blog.adapter;
-import android.databinding.DataBindingUtil;
 import android.text.TextUtils;
 import android.view.View;
 
@@ -12,6 +11,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
 
 import com.base.bolg_model.entity.MenuHomeLeftEntity;
+
+import androidx.databinding.DataBindingUtil;
 
 /**
  * Created by Administrator on 2019/10/21.

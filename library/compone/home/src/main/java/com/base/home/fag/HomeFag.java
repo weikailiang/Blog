@@ -1,7 +1,5 @@
 package com.base.home.fag;
 
-import android.support.v4.content.ContextCompat;
-import android.view.KeyEvent;
 
 import com.base.comm_model.event.MainTitleEvent;
 import com.base.common.act.BaseFragment;

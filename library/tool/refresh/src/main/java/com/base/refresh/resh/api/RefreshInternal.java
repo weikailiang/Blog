@@ -1,10 +1,11 @@
 package com.base.refresh.resh.api;
 
-import android.support.annotation.NonNull;
 import android.view.View;
 
 import com.base.refresh.resh.constant.SpinnerStyle;
 import com.base.refresh.resh.listener.OnStateChangedListener;
+
+import androidx.annotation.NonNull;
 
 
 /**

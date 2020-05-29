@@ -1,6 +1,7 @@
 package com.base.refresh.recy;
 
-import android.support.v7.widget.GridLayoutManager;
+
+import androidx.recyclerview.widget.GridLayoutManager;
 
 public class HFGridSpanSizeLookup extends GridLayoutManager.SpanSizeLookup {
 

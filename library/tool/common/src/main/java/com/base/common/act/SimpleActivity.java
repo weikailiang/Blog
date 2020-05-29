@@ -1,11 +1,11 @@
 package com.base.common.act;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.base.common.R;
 
+import androidx.appcompat.widget.Toolbar;
 import me.yokeyword.fragmentation.SupportActivity;
 
 /**

@@ -1,6 +1,5 @@
 package com.base.wedget;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
@@ -13,6 +12,8 @@ import com.base.wedget.m.SelectImgModel;
 import com.base.wedget.p.SelectImgPresenter;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by weikailiang on 2020/5/21.

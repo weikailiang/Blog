@@ -5,8 +5,6 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
@@ -25,6 +23,9 @@ import com.base.refresh.resh.constant.SpinnerStyle;
 import com.base.refresh.resh.internal.ProgressDrawable;
 import com.base.refresh.resh.internal.pathview.PathsDrawable;
 import com.base.refresh.resh.util.DensityUtil;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 

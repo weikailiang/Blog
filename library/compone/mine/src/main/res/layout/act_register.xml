@@ -37,7 +37,7 @@
                        android:textSize="@dimen/font_large"
                        android:layout_marginTop="@dimen/comm_dimen_80"
                        android:paddingLeft="@dimen/comm_dimen_20"/>
-                   <android.support.design.widget.TextInputLayout
+                   <com.google.android.material.textfield.TextInputLayout
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:padding="@dimen/comm_dimen_10"
@@ -62,9 +62,9 @@
                            android:textColor="@android:color/white"
                            android:background="@drawable/et_bottom_line"
                            />
-                   </android.support.design.widget.TextInputLayout>
+                   </com.google.android.material.textfield.TextInputLayout>
 
-                   <android.support.design.widget.TextInputLayout
+                   <com.google.android.material.textfield.TextInputLayout
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:padding="@dimen/comm_dimen_10"
@@ -89,7 +89,7 @@
                            android:textColor="@android:color/white"
                            android:background="@drawable/et_bottom_line"
                            />
-                   </android.support.design.widget.TextInputLayout>
+                   </com.google.android.material.textfield.TextInputLayout>
 
 
                    <Button

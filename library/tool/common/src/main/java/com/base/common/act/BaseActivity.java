@@ -3,11 +3,7 @@ package com.base.common.act;
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.ActivityInfo;
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -21,7 +17,10 @@ import com.base.common.loding.LoadingIndicatorView;
 import com.base.common.utils.ScreenUtil;
 import com.base.common.utils.TUtil;
 
-import me.yokeyword.fragmentation.SupportActivity;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 /**
  * Created by weikailiang on 2020/5/6.
@@ -98,7 +97,7 @@ public abstract class BaseActivity<T extends BasePresenter, E extends BaseModel>
 
 
     public void setOnOrientation(){
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
     }
 
     protected abstract int getLayoutResource();

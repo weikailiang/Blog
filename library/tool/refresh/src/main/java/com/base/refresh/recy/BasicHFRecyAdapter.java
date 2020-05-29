@@ -1,7 +1,5 @@
 package com.base.refresh.recy;
 import android.animation.Animator;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +13,9 @@ import com.base.refresh.recy.animation.BaseAnimation;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 
 /**

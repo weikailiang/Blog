@@ -9,8 +9,6 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Build;
-import android.support.v4.view.LayoutInflaterCompat;
-import android.support.v4.view.LayoutInflaterFactory;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -24,6 +22,9 @@ import com.base.common.R;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.core.view.LayoutInflaterCompat;
+import androidx.core.view.LayoutInflaterFactory;
 
 /**
  * 夜间模式控制器

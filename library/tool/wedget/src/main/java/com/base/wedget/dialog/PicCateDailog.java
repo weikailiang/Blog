@@ -2,22 +2,23 @@ package com.base.wedget.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
 import com.base.wedget.R;
 import com.base.wedget.entity.ImageLoadEntity;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by weikailiang on 2020/5/22.
  */
 
-public class PicCateDailog extends BottomSheetDialog{
+public class PicCateDailog extends BottomSheetDialog {
     private String mTitle;
     private RecyclerView mRv;
     private Context mContext;

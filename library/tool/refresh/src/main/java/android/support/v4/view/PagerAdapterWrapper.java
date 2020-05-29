@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 
 import java.lang.reflect.Field;
 
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 @SuppressWarnings("deprecation")
 public class PagerAdapterWrapper extends PagerAdapter {
 
@@ -34,10 +37,10 @@ public class PagerAdapterWrapper extends PagerAdapter {
         }
     }
 
-    @Override
-    protected void setViewPagerObserver(DataSetObserver observer) {
-        super.setViewPagerObserver(observer);
-    }
+//    @Override
+//    protected void setViewPagerObserver(DataSetObserver observer) {
+//        super.setViewPagerObserver(observer);
+//    }
 
     @Override
     public int getCount() {
