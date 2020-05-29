@@ -14,15 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d1ea59-1bd6-48bf-9913-1b773c04ea50" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/chat/chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/chat/chat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/home/home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/home/home.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/compone/mine/mine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/compone/mine/mine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/bolg_model/bolg_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/model/comm_model/comm_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/model/comm_model/comm_model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/refresh/refresh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/refresh/refresh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/tool/wedget/wedget.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/tool/wedget/wedget.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="2aadcbde-4eb5-4110-821d-f94972fd8d40" name="Revert: Initial commit" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
