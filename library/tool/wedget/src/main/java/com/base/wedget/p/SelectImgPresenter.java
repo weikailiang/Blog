@@ -13,6 +13,7 @@ import android.support.v7.widget.GridLayoutManager;
 import com.base.common.utils.ToastUtil;
 import com.base.wedget.R;
 import com.base.wedget.adapter.SelectImgAdapter;
+import com.base.wedget.adapter.SelectImgDivider;
 import com.base.wedget.c.SelectImgContract;
 import com.base.wedget.dialog.PicCateAdapter;
 import com.base.wedget.dialog.PicCateDailog;
@@ -127,9 +128,10 @@ public class SelectImgPresenter extends SelectImgContract.Presenter{
 
         if (mAdapter == null){
             mAdapter = new SelectImgAdapter();
-            GridLayoutManager manager = new GridLayoutManager(mContext,4);
+            GridLayoutManager manager = new GridLayoutManager(mContext,3);
             mView.getRecycler().setLayoutManager(manager);
             mView.getRecycler().setAdapter(mAdapter);
+            mView.getRecycler().addItemDecoration(new SelectImgDivider());
         }
         mAdapter.setmData(list);
 
@@ -193,7 +195,7 @@ public class SelectImgPresenter extends SelectImgContract.Presenter{
                     if (mImageFloders.size()>0) {
                         mView.showImgCate(mImageFloders);
                     }else {
-                        ToastUtil.show("未查到图片");
+                        ToastUtil.show(mContext.getString(R.string.no_search_pic));
                     }
 
                     checkAllLocalImgByPaths();

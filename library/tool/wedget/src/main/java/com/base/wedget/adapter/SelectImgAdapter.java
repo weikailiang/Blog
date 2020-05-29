@@ -38,12 +38,13 @@ public class SelectImgAdapter extends BaseAdapter<SelectImgViewHolder>{
 
     @Override
     public void onBindViewHolder(SelectImgViewHolder holder, int position) {
+
         Glide.with(holder.mBinding.img.getContext()).applyDefaultRequestOptions(options).load(mData.get(position).getPath()).into(holder.mBinding.img);
     }
 
     @Override
     public int getItemCount() {
-        return mData !=null ? mData.size() : 0;
+        return (null!=mData&&mData.size()>0) ? mData.size() : 0;
     }
 
     public List<ImageItem> getmData() {

@@ -1,9 +1,6 @@
 package com.base.common.act;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -12,6 +9,9 @@ import com.base.common.act.base.BaseModel;
 import com.base.common.act.base.BasePresenter;
 import com.base.common.loding.LoadingIndicatorView;
 import com.base.common.utils.TUtil;
+
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by weikailiang on 2020/5/11.

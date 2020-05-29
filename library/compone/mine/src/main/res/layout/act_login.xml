@@ -89,7 +89,7 @@
                            android:textColor="@android:color/white"
                            android:background="@drawable/et_bottom_line"
                            />
-                   </android.support.design.widget.TextInputLayout>
+                   </>
                    <RelativeLayout
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"

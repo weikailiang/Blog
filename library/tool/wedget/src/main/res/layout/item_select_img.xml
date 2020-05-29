@@ -7,14 +7,23 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/comm_dimen_100"
+        android:background="@drawable/item_select_img_shape"
         >
+
         <ImageView
             android:id="@+id/img"
-            android:layout_width="@dimen/comm_dimen_70"
-            android:layout_height="@dimen/comm_dimen_70"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/comm_dimen_100"
             android:layout_centerHorizontal="true"
-            android:layout_margin="5dp"
-            android:background="@drawable/item_select_img_shape"/>
+            android:scaleType="centerCrop"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:drawableRight="@drawable/select_checkbox"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"/>
     </RelativeLayout>
 </layout>
